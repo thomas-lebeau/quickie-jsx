@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 56px;
+}
+
+.app {
+  height: 100%;
+  background-color: rgba(103, 58, 183, 0.2);
+}
+
+.list {
+  margin: 0;
+  list-style: none;
+  background-color: #fff;
+  padding: 0;
+  text-align: center;
+}
+
+.story {
+  padding: 10px;
+
+  small {
+    display: block;
+    margin-top: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  & + & {
+    border-top: 1px solid #eee;
+  }
+}
